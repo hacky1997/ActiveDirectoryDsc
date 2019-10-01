@@ -19,7 +19,8 @@
 
 <#
     .DESCRIPTION
-        While setting up IIS and stopping the default website is interesting, it isn’t quite useful yet.
+        This configuration will create two Active Directory computer accounts
+        enabled. The property Enabled will not be enforced in either case. While setting up IIS and stopping the default website is interesting, it isn’t quite useful yet.
         After all, people typically use IIS to set up websites of their own with custom protocol and bindings.
         Fortunately, using DSC, adding another website is as simple as using the File and xWebsite resources to copy the website content and configure the website.
 #>
